@@ -109,13 +109,13 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 
 # Locale-dependent links for the sidebar
 NAVIGATION_LINKS = {
-    DEFAULT_LANG: (
-        ('/blog/index.html', 'Blog'),
-        ("/galleries/AstroHackWeek2014", "Photos"),
-        ("/blog/archive.html", "Archive"),
-        ("/blog/categories/index.html", "Tags"),
-        ("/blog/rss.xml", "RSS feed"),
-    ),
+    DEFAULT_LANG: (),
+#        ('/blog/index.html', 'Blog'),
+#        ("/galleries/AstroHackWeek2014", "Photos"),
+#        ("/blog/archive.html", "Archive"),
+#        ("/blog/categories/index.html", "Tags"),
+#        ("/blog/rss.xml", "RSS feed"),
+#    ),
 }
 
 # Name of the theme to use.
@@ -182,12 +182,12 @@ USE_BUNDLES = False
 # just independent HTML pages.
 #
 
-POSTS = (
-    ("posts/*.rst", "blog", "post.tmpl"),
-    ("posts/*.txt", "blog", "post.tmpl"),
-    ("posts/*.md", "blog", "post.tmpl"),
-    ("posts/*.ipynb", "blog", "post.tmpl"),
-)
+POSTS = ()
+#    ("posts/*.rst", "blog", "post.tmpl"),
+#    ("posts/*.txt", "blog", "post.tmpl"),
+#    ("posts/*.md", "blog", "post.tmpl"),
+#    ("posts/*.ipynb", "blog", "post.tmpl"),
+#)
 PAGES = (
     ("stories/*.rst", "", "story.tmpl"),
     ("stories/*.txt", "", "story.tmpl"),
